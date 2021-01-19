@@ -1,79 +1,96 @@
+body{
+  position: relative;
+}
+header {
+  position: relative;
+  background-color: rgb(82, 80, 80);
+  height: 100px;
+}
 
-a {
-    color: #aaa;
-    text-decoration: none;
-  }
-  header {
-    padding-top: 30px;
-  }
-  header,
-  main > * {
-    padding-bottom: 30px;
-  }
-  .container {
-    width: 960px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-  }
-  nav {
-    background-color: #666;
-    padding: 20px 0;
-  }
-  nav ul {
-    display: flex;
-  }
-  nav ul li {
-    margin-right: 30px;
-    display: flex;
-  }
-  nav ul li::last-of-type {
-    margin-right: 0;
-  }
-  nav ul li a {
-    display: flex;
-    align-items: center;
-  }
-  /* sub banner */
-  .sub-banner .container {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    column-gap: 30px;
-  }
-  /* featured */
-  .featured .container {
-    display: grid;
-    grid-template-columns: 480px 480px;
-  }
-  .featured .container article {
-    height: 400px;
-  }
-  .featured .container article:last-of-type {
-    padding-left: 30px;
-  }
-  .featured .container article:last-of-type span {
-    font-size: 1.3rem;
-  }
-  .featured .container article:last-of-type p {
-    height: calc(100% - 30px - 30px);
-    overflow: scroll;
-    margin-bottom: 30px;
-    overflow-x: hidden;
-  }
-  .featured .container article:last-of-type button {
-    color: white;
-    background-color: black;
-    padding: 0.5em 2em;
-    border: none;
-    border-radius: 5px;
-    transition: 350ms ease all;
-  }
-  .featured .container article:last-of-type button:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  /* footer */
-  footer {
-    height: 110px;
-    background-color: #666;
-  }
+.a1{
+  position: absolute;
+  display: inline-block;
+  margin-left: 410px;
+  margin-top: 40px;
+  color: white;}
+.a2{
+  position: absolute;
+  display: inline-block;
+  margin-left: 570px;
+  margin-top: 40px;
+  color: white;
+}
+.a3{
+  position: absolute;
+  display: inline-block;
+  margin-left: 730px;
+  margin-top: 40px;
+  color: white;
+}
+.a4{
+  position: absolute;
+  display: inline-block;
+  margin-left: 900px;
+  margin-top: 40px;
+  color: white;
+}
+
+
+header span img{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+  
+}
+main  div img{
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+main img{
+  position: absolute;
+  margin-left: 200px;
+  margin-top:505px ;
+  
+}
+main span img{
+  position: absolute;
+  margin-left: 530px;
+  margin-top:505px ;
+}
+main article img{
+  position: absolute;
+  margin-left: 860px;
+  margin-top:505px
+}
+main article div img{
+  position: absolute;
+  margin-left: 200px;
+  margin-top:910px ;
+}
+main article div p {
+  position: absolute;
+  margin-left: 700px;
+  margin-top:930px ;
+  width: 480px;
+}
+button{
+  position: absolute;
+  margin-left: 700px;
+  margin-top:1290px ;
+  background-color: black;
+  color: white;
+
+}
+h2{
+  position: absolute;
+  margin-left: 700px;
+  margin-top:910px ;
+}
+footer{
+  position: absolute;
+  background-color: rgb(82, 80, 80);
+  height: 100px;
+  margin-top: 1330px;
+  width: 100%;
+}
